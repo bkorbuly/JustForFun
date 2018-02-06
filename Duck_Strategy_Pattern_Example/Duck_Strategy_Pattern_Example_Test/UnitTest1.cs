@@ -1,6 +1,5 @@
 using Duck_Strategy_Pattern_Example;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
 using System;
 using System.IO;
 

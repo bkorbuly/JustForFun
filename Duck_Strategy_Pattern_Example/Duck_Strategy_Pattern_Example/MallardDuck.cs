@@ -8,8 +8,8 @@ namespace Duck_Strategy_Pattern_Example
     {
         public MallardDuck()
         {
-            SetFly(new FlyWithWings());
-            SetQuack(new QuackAble());
+            Flyer = new FlyWithWings();
+            Quacker = new QuackAble();
         }
     }
 }

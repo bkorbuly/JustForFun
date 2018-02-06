@@ -8,8 +8,8 @@ namespace Duck_Strategy_Pattern_Example
     {
         public RubberDuck()
         {
-            SetFly(new FlyWithRocket());
-            SetQuack(new Squeez());
+            Flyer = new FlyWithRocket();
+            Quacker = new Squeez();
         }
     }
 }

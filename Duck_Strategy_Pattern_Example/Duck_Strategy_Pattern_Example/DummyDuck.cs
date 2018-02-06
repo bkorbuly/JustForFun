@@ -8,8 +8,8 @@ namespace Duck_Strategy_Pattern_Example
     {
         public DummyDuck()
         {
-            SetFly(new CantFly());
-            SetQuack(new CantQuack());
+            Flyer = new CantFly();
+            Quacker = new CantQuack();
         }
     }
 }
